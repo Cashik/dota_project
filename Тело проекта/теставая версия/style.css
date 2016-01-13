@@ -1,0 +1,500 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+body{
+    background-color: rgb(30,35,40);
+    background-image: radial-gradient(circle at 50% 50%, rgba(111, 111, 111, 0.5), rgba(5, 5, 5, 0.5));
+    width:100%;
+    min-height: 750px;
+}
+
+.header{
+    background-image: url(img/background/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20i%20gilya.jpg);
+    background-repeat: repeat;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid RGBA(55,55,55,0.5);
+    box-shadow: 0px -10px 14px 20px RGBA(0,0,0,1);  
+}
+
+.menu{    
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    
+    transition: all 0.5s;
+}
+.menu:hover{
+    
+    transition: all 0.5s;
+}
+
+.header-link{
+
+    display: inline-block;
+
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    color: white;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+#lol {
+    display: block;
+    vertical-align: middle;
+}
+.header-link:hover{
+    box-shadow: 0px -10px 14px 10px RGBA(11,11,11,1),
+                0px -10px 100px 5px rgba(135, 206, 235,0.1),
+                0px -10px 100px 5px rgba(255, 255, 255,0.1);
+
+
+    text-shadow: 0px 0px 60px rgba(255,255,255,0.5),
+        -10px 0px 20px rgba(255,255,255,0.7 ),
+        10px 0px 20px rgba(255,255,255,0.7);
+    /*position:static;
+    margin-left: -2px;
+    margin-right: -2px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 2px;
+    0px -10px 50px rgba(255,255,255,0.8),
+    -10px 0px 50px rgba(255,255,255,0.8),
+    10px 0px 50px rgba(255,255,255,1),
+    0px 10px 50px rgba(255,255,255,1);*/
+
+
+
+
+    transition: all 0.5s;
+}
+.link {
+    text-decoration: none;
+    display: block;
+    color:rgb(222,222,222);
+    vertical-align: middle;
+    padding-top:20px;
+    margin: 0px;
+}
+
+.content{
+	min-height:300px;
+	width:100%;}
+
+
+.bans{
+    background-color:RGBA(15,15,16,0.8); 
+    text-align:center;
+    height: 93px;
+    width: 772px;
+    line-height: 0px;
+    vertical-align:middle;
+}
+
+.banned-hero{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid rgb(222,222,222);
+transition: all 0.5s;
+}
+.banned-hero-recomend{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(11,222,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(11,222,11,1);
+    transition: all 0.5s;
+}
+.banned-hero-unwanted{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(222,11,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(222,11,11,1);
+    
+  transition: all 1s;
+}
+.banned-hero-situational{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(222,222,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(222,222,11,1);
+
+    transition: all 0.5s;
+}
+.banned-hero-neutral{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(111,111,111,1);
+box-shadow: 0px 0px 14px 0px RGBA(111,111,111,1);
+transition: all 0.5s;
+}
+
+.banned-hero:hover{
+border: 1px solid white;
+margin:10px;
+
+
+    transition: all 0.5s;
+}
+
+
+.recomends{
+    background-color:RGBA(15,15,15,0.8);
+    
+    text-align: left:;
+    vertical-align:top;
+    
+    /*padding:15px;*/
+    color: rgb(222,222,222);
+}
+
+.banLvl{
+    min-height: 0px;
+    margin: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    text-align: left;
+    line-height: 0px;
+    
+    display: none;
+
+}
+
+#lvl5{
+    border-left: 4px solid rgb(49, 252, 244);
+    background-image: linear-gradient(to right , rgba(49, 252, 244 ,0.7),transparent);
+
+}
+#lvl4{
+   border-left: 4px solid rgb(70, 245, 165);
+    background-image: linear-gradient(to right , rgba(70, 245, 165,0.7),transparent);
+
+}
+#lvl3{
+    border-left: 4px solid rgb(96, 226, 141);
+    background-image: linear-gradient(to right , rgba(96, 226, 141, 0.7), transparent);
+
+}
+#lvl2{
+    border-left: 4px solid RGBa(111,199,111,1);
+    background-image: linear-gradient(to right , rgba(111,199,111,0.7), transparent);
+    
+
+}
+#lvl1{
+    /*background-color: RGBa(111,166,111,0.7);*/
+    border-left: 4px solid RGBa(111,166,111,1);
+    background-image: linear-gradient(to right , rgba(111,166,111,0.7), transparent);
+    
+}
+#lvl0{
+    background-color: RGB(111,111,111);
+}
+#lvl6{
+    
+    background-image: linear-gradient(to left , rgba(222,22,22,0.7),transparent);
+    border-right: 4px solid RGBa(222,22,22,1);
+    text-align: right;
+}
+
+
+.heroes{
+    background-color:RGBA(15,15,15,0.8); 
+    text-align: center;
+    vertical-align:top;
+    padding:0px;
+    line-height: 0px;
+
+}
+
+
+.hero{
+    background-color: black;
+width:61px;
+height: 35px;
+margin:0px;
+position:relative;
+display:inline-block;  
+}
+
+
+
+.recomends .hero{
+margin: 2px;
+
+
+}
+ 
+
+
+.hero-img{
+    width: 59px;
+    height: auto;
+    border : 1px solid white;
+    
+    transition: all 1s;
+}
+
+.hero-img-deleted{
+    width: 59px;
+    height: auto;
+    border : 1px solid white;
+    
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    /*Добавим вот такой вот код*/
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      transition: all 1s;
+}
+.recomends .hero-img:hover{
+    width: 59px;
+    height: auto;
+    box-Shadow : 0px 0px 10px 0px white;
+    border : 1px solid white;
+    
+    transition: all 0.5s;
+}
+
+.recomends .hero-img-selected{
+    width: 59px;
+    height: auto;
+    box-Shadow  : 0px 0px 14px 0px red;
+    border : 1px solid red;
+    
+     transition: all 0.5s;
+}
+
+.hero-zoom{
+width: 76px;
+position:absolute;
+left: -15%;
+top: -15%;
+display:none;
+}
+
+.heroes-h{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 350px;
+    word-spacing: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#heroes-str{
+    background-image: linear-gradient(to bottom , rgb(175, 28, 28),rgba(175, 28, 28,0));
+    border-top: 10px solid rgb(175, 28, 28);
+}
+#heroes-int{
+    background-image: linear-gradient(to bottom , rgb(4, 72, 165),rgba(4, 72, 165,0));
+    border-top: 10px solid rgb(4, 72, 165);
+}
+#heroes-agi{
+    background-image: linear-gradient(to bottom , rgb(30, 132, 58),rgba(30, 132, 58,0));
+    border-top: 10px solid rgb(30, 132, 58);
+}
+        
+div:hover .hero-zoom{
+z-index:2;
+display: block;
+box-shadow: 0px 0px 14px 0px white;
+border : 1px solid white;
+}
+
+
+.ad{
+background-color:RGBA(1,11,111,0.3);
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+width:110px;
+text-align:centr;
+background-color: RGB(22,22,33);
+}
+
+.footer{
+	background-color:RGBA(1,11,111,0.5);
+    background-image: url(img/background/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20i%20gilya.jpg);
+    min-height: 15%;
+    width: 100%;
+    position:fixed;
+    top:85%;
+    background-repeat: repeat;
+    margin-top: 20px;
+    border-top: 1px solid RGBA(55,55,55,0.5);
+    box-shadow: 0px 10px 14px 20px RGBA(0,0,0,1);
+}
+
+
+#table-body *{
+    color:deepskyblue;
+}
+
+.finder{
+    margin: 5px;
+    vertical-align: middle;
+}
+
+
+#search
+{
+        padding: 5px 9px;
+        height: 10px;
+        width: 380px;
+        border: 0px solid #6c6c6c;
+        color: rgb(222,222,222);
+        background: rgb(38, 38, 38);
+
+
+}
+#search:focus
+{
+        outline: none;
+}
+
+#cat{
+    vertical-align: middle;
+    display: block;
+    height: inherit;
+    margin-top: 50px;
+}
+#radio{
+   display: inline;
+
+}
+
+#radio:hover{
+
+}
+.clearf{
+    clear: both;
+}
+
+
+
+/*--------------------switch------*/
+#swither{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 74px;
+    background: transparent;
+
+}
+
+.onoffswitch {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    position: relative; width: auto;
+    height: 100%;
+    vertical-align: middle;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor:pointer;
+    height: 100%;
+    /*border: 2px solid #000000; border-radius: 0px;*/
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    height: 100%;
+    vertical-align: middle;
+    transition: margin 0.2s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: inline-block;  width: 50%; padding: 0; 
+    
+    color: rgb(222,222,222);
+    height: 100%;
+    line-height: 63px;
+    vertical-align: middle;
+    font-size: 120%;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+.onoffswitch-inner:before {
+    content: "Не хочу, чтоб меня контрили";
+
+    background: linear-gradient( to right,rgba(30, 132, 58,0.7), transparent);
+    border-left: 4px solid rgb(30, 132, 58);
+}
+.onoffswitch-inner:after {
+    content: "Хочу всех контрить    ";
+    background: linear-gradient( to left, rgba(4, 72, 165,0.7), transparent);
+    border-right: 4px solid  rgb(4, 72, 165);
+    
+}
+.onoffswitch-switch {
+    display: none; width: 30%; margin: 0px;
+    background: #2DB324;
+    position: absolute; top: 0; bottom: 0;
+    right: 70%;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+    background-color: #A6498F; 
+}

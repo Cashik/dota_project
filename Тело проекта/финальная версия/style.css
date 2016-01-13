@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background-image: url(img/background/maxresdefault.jpg);
+    background-position: 0px -300px;
+    
+    background-attachment: scroll;
+	width:100%;
+    
+}
+
+.header{
+    background-color:RGBA(1,11,111,0.3);
+    border-bottom: 1px solid RGBA(1,11,111,0.3);
+    box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+}
+
+.menu{
+    width: 290px;
+    text-align: center;
+}
+.menu:hover{
+    background-color:RGBA(1,11,111,0.3);
+}
+
+.header-link{
+    padding: 10px;
+    display: inline-block;
+}
+.header-link:hover{
+    background-color:RGBA(2,22,222,0.5);
+}
+.link {
+    color:aliceblue;
+}
+
+
+
+.content{
+	min-height:300px;
+	width:100%;
+	background-color:rgba(40,120,80,0);
+}
+
+
+.bans{
+background-color:RGBA(111,111,256,0.3); 
+border: 1px solid RGBA(111,111,256,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(111,111,256,1);
+    
+text-align:center;
+height: 140px;
+vertical-align:centrer;
+}
+
+.banned-hero{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,1);
+}
+
+.banned-hero:hover{
+border: 1px solid white;
+margin:9px;
+box-shadow: 0px 0px 14px 0px white;
+}
+
+
+.heroes{
+background-color:RGBA(1,11,55,1);
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+    
+text-align: center;
+vertical-align:middle;
+padding:15px;
+color: rgb(222,222,222);
+}
+
+.hero{
+width:59px;
+height: 33px;
+margin:8px;
+position:relative;
+display:inline-block;
+}
+
+.hero-img{
+    width: 59px;
+    height: auto;
+}
+
+.hero-zoom{
+width: 127px;
+height: 71px;
+position:absolute;
+left: -50%;
+top: -50%;
+display:none;
+}
+
+div:hover .hero-zoom{
+z-index:2;
+display: block;
+box-shadow: 0px 0px 14px 0px white;
+}
+
+.ad{
+background-color:RGBA(1,11,111,0.3);
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+width:110px;
+text-align:centr;
+background-color: RGB(22,22,33);
+}
+
+.footer{
+	background-color:RGBA(1,11,111,0.5);
+    border-top: 1px solid RGBA(1,11,111,0.3);
+    box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+	
+}
+
+
+#table-body *{
+    color:cornsilk;
+}
+

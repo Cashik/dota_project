@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+body{
+	background-image: url(img/background/maxresdefault.jpg);
+    
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+	width:100%;
+    min-height: 750px;
+}
+
+.header{
+    background-color:RGBA(1,11,111,0.3);
+    border-bottom: 1px solid RGBA(1,11,111,0.3);
+    box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+    padding: 0px;
+}
+
+.menu{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    transition: all 0.5s;
+}
+.menu:hover{
+    background-color:RGBA(1,11,111,0.3);
+    
+    transition: all 0.5s;
+}
+
+.header-link{
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.header-link:hover{
+    background-color:RGBA(2,22,222,0.5);
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+
+
+
+    transition: all 0.5s;
+}
+.link {
+    text-decoration: none;
+    color:white;
+    margin: 0px;
+}
+
+.content{
+	min-height:300px;
+	width:100%;
+}
+
+
+.bans{
+background-color:RGBA(111,111,256,0.3); 
+border: 1px solid RGBA(111,111,256,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(111,111,256,1);
+    
+text-align:center;
+height: 98px;
+width: 772px;
+vertical-align:centrer;
+}
+
+.banned-hero{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGB(1,11,55);
+transition: all 0.5s;
+}
+.banned-hero-recomend{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(11,222,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(11,222,11,1);
+    transition: all 0.5s;
+}
+.banned-hero-unwanted{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(222,11,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(222,11,11,1);
+    
+  transition: all 1s;
+}
+.banned-hero-situational{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(222,222,11,1);
+box-shadow: 0px 0px 14px 0px RGBA(222,222,11,1);
+
+    transition: all 0.5s;
+}
+.banned-hero-neutral{
+width:127px;
+margin:10px;
+float:inline-block;
+border: 1px solid RGBA(111,111,111,1);
+box-shadow: 0px 0px 14px 0px RGBA(111,111,111,1);
+transition: all 0.5s;
+}
+
+.banned-hero:hover{
+border: 1px solid white;
+margin:10px;
+box-shadow: 0px 0px 14px 0px white;
+    transition: all 0.5s;
+}
+
+
+.recomends{
+    background-color:RGBA(1,11,55,0.6);
+    border: 1px solid RGBA(1,11,111,0.3);
+    box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+
+    text-align: left:;
+    vertical-align:middle;
+    
+    padding:15px;
+    color: rgb(222,222,222);
+}
+
+.banLvl{
+    min-height: 0px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 4px;
+    display: none;
+}
+
+#lvl5{
+    background-color: RGB(33,133,133);
+}
+#lvl4{
+    background-color:RGB(122,256,122);
+}
+#lvl3{
+    background-color:RGB(111,222,111);
+}
+#lvl2{
+    background-color:RGB(111,177,111);
+}
+#lvl1{
+    background-color: RGB(111,155,111);
+}
+#lvl0{
+    background-color: RGB(111,111,111);
+}
+#lvl6{
+    background-color: RGB(222,22,22);
+}
+
+
+.heroes{
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+background-color:RGBA(1,11,55,0.6); 
+ 
+text-align: center;
+vertical-align:top;
+padding:0px;
+line-height: 0px;
+
+}
+
+
+.hero{
+    background-color: black;
+width:61px;
+height: 35px;
+margin:0px;
+position:relative;
+display:inline-block;  
+}
+
+
+
+.recomends .hero{
+margin: 2px;
+
+
+}
+ 
+
+
+.hero-img{
+    width: 59px;
+    height: auto;
+    border : 1px solid white;
+    
+    transition: all 1s;
+}
+
+.hero-img-deleted{
+    width: 59px;
+    height: auto;
+    border : 1px solid white;
+    
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    /*Добавим вот такой вот код*/
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      transition: all 1s;
+}
+.recomends .hero-img:hover{
+    width: 59px;
+    height: auto;
+    box-Shadow : 0px 0px 10px 0px white;
+    border : 1px solid white;
+    
+    transition: all 0.5s;
+}
+
+.recomends .hero-img-selected{
+    width: 59px;
+    height: auto;
+    box-Shadow  : 0px 0px 14px 0px red;
+    border : 1px solid red;
+    
+     transition: all 0.5s;
+}
+
+.hero-zoom{
+width: 76px;
+position:absolute;
+left: -15%;
+top: -15%;
+display:none;
+}
+
+.heroes-h{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+        
+div:hover .hero-zoom{
+z-index:2;
+display: block;
+box-shadow: 0px 0px 14px 0px white;
+border : 1px solid white;
+}
+
+
+.ad{
+background-color:RGBA(1,11,111,0.3);
+border: 1px solid RGBA(1,11,111,0.3);
+box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+width:110px;
+text-align:centr;
+background-color: RGB(22,22,33);
+}
+
+.footer{
+	background-color:RGBA(1,11,111,0.5);
+    border-top: 1px solid RGBA(1,11,111,0.3);
+    box-shadow: 0px 0px 14px 0px RGBA(1,11,111,0.3);
+	
+}
+
+
+#table-body *{
+    color:deepskyblue;
+}
+
+
+

@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title > I shel go ritch!</title>
+
+   
+</head>
+
+<body>
+	<div>
+		<form name="formname" action="index.php" id="formid">
+		<table class="someclass" id="tableid">
+		<tr><td>Здесь какая то таблица и в ней какая то инфа</td></tr>
+		</table>
+		</form>
+		</div>
+		 
+		<input type = "button" value = "Нажать нежно" onclick = "Function1 ();"/>
+		<script type = "text/javascript">
+		function Function1 () {
+			//создаем 2 элемента DIV
+			var div1 = document.createElement ('DIV');
+			var div2 = document.createElement ('DIV');
+			
+			//создаем текстовый узел в обоих элементах
+			div1.innerHTML = 'Hello, World';
+			div2.innerHTML = 'Hello, World!';
+			
+			//ищем контейнер, в котором наша таблица (в нашем случае - форма)
+			var cont = document.getElementById ('tableid').parentNode;
+			
+			//присоединяем все элементы по очереди DIV+TABLE+DIV
+			cont.appendChild (div1);
+			//отсоединяем таблицу и присоединяем в новое место
+			cont.appendChild (cont.removeChild (document.getElementById ('tableid')));
+			//присоединяем второй div к родителю формы
+			cont.parentNode.appendChild (div2);
+		}
+	</script>
+    
+</body>
+
+</html>
+
